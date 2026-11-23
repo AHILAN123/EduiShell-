@@ -1,0 +1,19 @@
+echo "hello   world" $HOME '$USER'
+pwd
+cd /tmp; pwd; cd
+ls -l /tmp | grep -v total | wc -l
+cat < /etc/passwd | cut -d: -f1 | sort | head -5 > /tmp/eduishell_vg_users.txt; cat /tmp/eduishell_vg_users.txt
+echo hi >> /tmp/eduishell_vg_out.txt; echo there >> /tmp/eduishell_vg_out.txt; cat /tmp/eduishell_vg_out.txt
+nonexistentcmd
+
+     
+|
+ls |
+echo "unclosed
+cat < /no/such/file
+yes | head -2
+sleep 0.1 &
+sleep 0.3
+help | head -3
+history | tail -3
+rm -f /tmp/eduishell_vg_users.txt /tmp/eduishell_vg_out.txt
